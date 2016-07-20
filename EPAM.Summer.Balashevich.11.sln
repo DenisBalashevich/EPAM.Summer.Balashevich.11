@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTask", "QueueTask\QueueTask.csproj", "{66BE3A8C-C809-4FF6-86A8-E773A3999E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonaciTask", "FibonaciTask\FibonaciTask.csproj", "{1B4538F1-0D55-415D-BBD7-E5E57A2B3E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetTask", "SetTask\SetTask.csproj", "{EFAE7A01-5F46-4504-8928-A52D49604553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BE3A8C-C809-4FF6-86A8-E773A3999E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BE3A8C-C809-4FF6-86A8-E773A3999E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BE3A8C-C809-4FF6-86A8-E773A3999E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BE3A8C-C809-4FF6-86A8-E773A3999E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4538F1-0D55-415D-BBD7-E5E57A2B3E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4538F1-0D55-415D-BBD7-E5E57A2B3E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4538F1-0D55-415D-BBD7-E5E57A2B3E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4538F1-0D55-415D-BBD7-E5E57A2B3E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAE7A01-5F46-4504-8928-A52D49604553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAE7A01-5F46-4504-8928-A52D49604553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAE7A01-5F46-4504-8928-A52D49604553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAE7A01-5F46-4504-8928-A52D49604553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
