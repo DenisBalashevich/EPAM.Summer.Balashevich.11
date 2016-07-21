@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace SetTask
 {
-    public class Set<T> : IEnumerable<T> where T : IEquatable<T>
+    public class Set<T> : IEnumerable<T>
     {
         private int initialArrayCapacity = 2;
         private int current = 0;
@@ -70,9 +70,8 @@ namespace SetTask
         {
             if (ReferenceEquals(item, null))
                 return false;
-            for (int i = 0; i < current; i++)
-                if (item.Equals(set[i]) == true)
-                    return true;
+            if (set.Contains(item))
+                return true;
             return false;
         }
 
